@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Форма тапсырмасы</title>
+</head>
+<body>
+
+    <!-- Тапсырма 1 -->
+<h2>Тіркелу формасы</h2>
+<!-- Басталуы -->
+<form>
+    <!-- Элементтерді топтастыру -->
+    <fieldset>
+        <legend>Жеке мәліметтер</legend>
+
+        <!-- Аты -->
+        <label>Аты:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <!-- Құпия сөз -->
+        <label>Құпия сөз:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <!-- Комментарий -->
+        <label>Комментарий:</label><br>
+        <textarea name="comment"></textarea><br><br>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Тапсырма 2 -->
+    <fieldset>
+        <legend>Қосымша ақпарат</legend>
+
+        <!-- Ел таңдау -->
+        <label>Ел таңдаңыз:</label><br>
+        <select>
+            <option>Қазақстан</option>
+            <option>Ресей</option>
+            <option>АҚШ</option>
+            <option>Канада</option>
+        </select>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Батырмалар -->
+    <input type="submit" value="Жіберу">
+    <input type="reset" value="Тазарту">
+
+</form>
+
+</body>
+</html>
